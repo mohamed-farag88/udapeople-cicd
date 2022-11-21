@@ -7,7 +7,7 @@
 - name: "Install Node.js 13"
   become: true
   apt:
-    name: ["node.js"]
+    name: ["nodejs"]
     state: latest
     update_cache: yes
 
@@ -15,4 +15,3 @@
   npm:
     name: pm2
     global: yes
-    

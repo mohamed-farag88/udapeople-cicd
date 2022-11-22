@@ -249,7 +249,7 @@ jobs:
               curl https://kvdb.io/F57UJBdN1sQA2um5EY9fjE/migration_$\{CIRCLE_WORKFLOW_ID:0:7\} -d '1'
             fi
       - destroy-environment
-      - revert-migrations 
+      - revert-migrations
 
          
 

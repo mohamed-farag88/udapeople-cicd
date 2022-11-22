@@ -60,7 +60,7 @@ commands:
           when: on_fail
           command: |
             SUCCESS=$(curl --insecure https://kvdb.io/F57UJBdN1sQA2um5EY9fjE/migration_<< parameters.Workflow_ID >>)
-            if(( $SUCCESS==1 )); 
+            if (( $SUCCESS == 1 )); 
             then
               cd ~/project/backend
               npm install
@@ -231,9 +231,11 @@ jobs:
 
   run-migrations:
     docker:
-      - image: circleci/node:13.8.0
+      - image: cimg/node:13.8.0
     steps:
       - checkout
+      - restore_cache:
+          keys: [backend-deps]
       - install_awscli
       - run:
           name: Run migrations

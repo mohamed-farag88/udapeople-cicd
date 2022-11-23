@@ -1,4 +1,0 @@
-1- Public Url to GitHub repository [URL01]:
-        https://github.com/mohamed-farag88/udapeople-cicd
-        
-        

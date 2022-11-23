@@ -1,4 +1,22 @@
-1- Public Url to GitHub repository [URL01]:
-        https://github.com/mohamed-farag88/udapeople-cicd
-        
-        
+ 1- URL01 
+A public git repository:
+https://github.com/mohamed-farag88/udapeople-cicd
+
+2- URL02
+Evidence of deployed and functioning front-end application in an S3 bucket:
+http://udapeople-cedb7aa.s3-website-us-east-1.amazonaws.com/
+
+3- URL03
+Evidence of deployed and functioning front-end application in CloudFront:
+http://d2dbldgbfczu9t.cloudfront.net/
+
+4- URL04
+Evidence of healthy back-end application:
+http://54.167.55.9:3030/api/status
+
+5- URL05
+Evidence of Prometheus Server:
+
+http://ec2-44-203-53-208.compute-1.amazonaws.com:9090/
+
+http://44.203.53.208:9090/
